@@ -89,10 +89,6 @@ header p {
   color: #212121;
 }
 
-.first-name {
-   font-size: 1.05em;
-}
-
 .subtitle {
   font-family: "Arial";
   font-size:x-large;
@@ -100,15 +96,10 @@ header p {
   color: #696969;
 }
 
-.sub-subtitle-email {
+.normal-write {
+  font-family: "Arial";
   font-size:small;
   font-weight:normal;
-}
-
-.sub-subtitle-phone {
-  font-size:small;
-  font-weight:normal;
-  color: #696969;
 }
 
 /* Information */
@@ -116,9 +107,9 @@ header p {
 .paper {
   margin: 0 auto;
   margin-bottom:1em;
-  
+  width:725px;
   background-color:white;
-  width:60%;
+
   
   padding:0.5em 0 0.5em 0;
   
@@ -167,36 +158,29 @@ body > div > article > div > section:last-child {
 
 .content-cat {
   font-family: "Arial";
-  font-variant:small-caps;
-  font-weight:300;
+  font-weight:bold;
   letter-spacing: 1px;
   
   color: #212121;
   
-  font-size:0.975em;
+  font-size:medium;
   
   text-align:center;
-  vertical-align:middle;
+  vertical-align:top;
 
   padding-left:6.66%;
   width:30%;
 }
 
-.content-cat p {
-  font-size:0.70em;
-  font-weight:600;
-  
-  margin-bottom:0;
-}
-
 .content-text {
-  border-left:1px solid #e0e0e0;
   transition: border 0.66s ease-in;
+  vertical-align:top;
 }
 
 .big-text {
   vertical-align:top;
 }
+
 
 .content-text ul {
   padding:0;
@@ -222,7 +206,7 @@ body > div > article > div > section:last-child {
 .content-text ul li:first-child {
   width:35%;
   
-  color: #424242;
+  color: #212121;
   
   font-weight:600;
 }
@@ -240,7 +224,7 @@ body > div > article > div > section:last-child {
   font-family: "Arial";
   font-size:0.7em;
   
-  color: #424242;
+  color: #212121;
   
   margin-left:2em;
   margin-top:0.45em;
@@ -251,10 +235,9 @@ body > div > article > div > section:last-child {
   font-family: "Arial";
   font-size:0.7em;
   
-  color: #424242;
+  color: #212121;
   
-  margin-left:2em;
-  margin-top:0.45em;
+  margin-top:0.25em;
   margin-bottom: 0.45em;
 }
 
@@ -264,27 +247,16 @@ div.content-text.work-listing.education-listing > p:nth-child(2) {
 
 .work-listing .highlight {
   font-family: "Arial";
-  font-size:0.7em;
+  font-size:12px;
   font-weight:400;
   
-  color: #424242;
-  
-  margin-left:3.25em;
-  padding-left:0.5em;
-  
-  border-left:1px solid #e0e0e0;
+  color: #212121;
   
 }
 
 .education-listing > .heading {
-  font-weight:600;
-  
-  margin-top:0.75em;
-  margin-left:2em;
-}
-
-.education-listing > .highlight {
-  margin-left:3.25em;
+  font-weight:bold;
+  font-size:small;
 }
 
 .highlight {
@@ -309,7 +281,6 @@ div.content-text.skills-listing > p {
   font-size:0.7em;
   font-weight:400;
 
-  margin-left: 2em;
   margin-top: 0.45em;
   margin-bottom: 0.45em;
 }
@@ -317,4 +288,17 @@ div.content-text.skills-listing > p {
 div.content-text.skills-listing > p > {
   color:#212121;
 }
+
+.date p {
+	font-size:11.5px;
+	font-style:italic;
+	color: #696969;
+	margin-top:0.45em;
+	text-align:right;
+}
+
+.grey {
+  color: #696969;
+}
+
 

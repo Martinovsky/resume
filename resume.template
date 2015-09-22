@@ -35,16 +35,16 @@
 						<p class="subtitle">{{label}}</p>
 					</div>
 					{{#if website}}
-							<p class="sub-subtitle">{{website}}</p>
+							<p class="normal-write">{{website}}</p>
 							{{/if}}
 
 							{{#if email}}
-							<p class="sub-subtitle-email">{{email}}
+							<p class="normal-write">{{email}}
 							</p>
 							{{/if}}
 
 							{{#if phone}}
-							<p class="sub-subtitle-phone">{{phone}}
+							<p class="normal-write grey">{{phone}}
 							</p>
 							{{/if}}
 				</div>
@@ -52,7 +52,7 @@
 			{{/resume.basics}}
 			
 			<div class="content-wrapper">
-
+<!- EDUCATION ->
 					{{#if resume.education.length}}
 					{{#foreach resume.education}}
 					{{#if $first}}
@@ -71,13 +71,13 @@
 
 								</div>
 								<div class="content-text work-listing education-listing">
-									{{#if institution}}
-									<p class="heading">{{institution}}</p>
-									{{/if}}
+									{{#if studyType}}
+										<p class="heading">{{studyType}}</p>
+										{{/if}}
 
 									<p class="highlight">
-										{{#if studyType}}
-										{{studyType}}:
+										{{#if institution}}
+										<strong>{{institution}}</strong>,
 										{{/if}}
 										{{#if area}}
 										{{#if gpa}}
@@ -89,7 +89,7 @@
 									</p>
 
 								</div>
-								<div class="date row">
+								<div class="work-listing education-listing date">
 									{{#if startDate}}
 									{{#if endDate}}
 									<p>{{startDate}} - {{endDate}}</p>
@@ -100,7 +100,41 @@
 						</section>
 						{{/foreach}}
 						{{/if}}
-			
+
+<!- SKILLS ->						
+						{{#if resume.skills.length}}
+								<section class="content">
+									<div class="row">
+										<div class="content-cat">
+											Skills
+										</div>
+										<div class="content-text skills-listing">
+											{{#foreach resume.skills}}
+											<p>
+												<span class="name">
+													{{#if name}}
+													<strong>
+														{{name}}{{#if level}}{{else}}:{{/if}}
+
+													</strong>
+													{{/if}}
+												</span>
+
+												{{#if level}}
+												<span>({{level}}):</span>
+												{{/if}}
+
+												{{#if keywords.length}}
+												{{#commalist keywords}}{{.}}{{/commalist}}
+												{{/if}}
+											</p>
+											{{/foreach}}
+										</div>
+									</div>
+								</section>
+								{{/if}}
+								
+<!- EXPERIENCE ->			
 				{{#if resume.work.length}}
 				{{#foreach resume.work}}
 				{{#if $first}}
@@ -254,37 +288,7 @@
 								{{/foreach}}
 								{{/if}}
 
-								{{#if resume.skills.length}}
-								<section class="content">
-									<div class="row">
-										<div class="content-cat">
-											Skills
-										</div>
-										<div class="content-text skills-listing">
-											{{#foreach resume.skills}}
-											<p>
-												<span class="name">
-													{{#if name}}
-													<strong>
-														{{name}}{{#if level}}{{else}}:{{/if}}
-
-													</strong>
-													{{/if}}
-												</span>
-
-												{{#if level}}
-												<span>({{level}}):</span>
-												{{/if}}
-
-												{{#if keywords.length}}
-												{{#commalist keywords}}{{.}}{{/commalist}}
-												{{/if}}
-											</p>
-											{{/foreach}}
-										</div>
-									</div>
-								</section>
-								{{/if}}
+								
 
 								<!-- LANGUAGE -->
 								{{#if resume.languages.length}}

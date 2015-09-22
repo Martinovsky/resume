@@ -102,10 +102,6 @@ header p {
   color: #212121;
 }
 
-.first-name {
-   font-size: 1.05em;
-}
-
 .subtitle {
   font-family: "Arial";
   font-size:x-large;
@@ -113,15 +109,10 @@ header p {
   color: #696969;
 }
 
-.sub-subtitle-email {
+.normal-write {
+  font-family: "Arial";
   font-size:small;
   font-weight:normal;
-}
-
-.sub-subtitle-phone {
-  font-size:small;
-  font-weight:normal;
-  color: #696969;
 }
 
 /* Information */
@@ -129,9 +120,9 @@ header p {
 .paper {
   margin: 0 auto;
   margin-bottom:1em;
-  
+  width:725px;
   background-color:white;
-  width:60%;
+
   
   padding:0.5em 0 0.5em 0;
   
@@ -180,36 +171,29 @@ body > div > article > div > section:last-child {
 
 .content-cat {
   font-family: "Arial";
-  font-variant:small-caps;
-  font-weight:300;
+  font-weight:bold;
   letter-spacing: 1px;
   
   color: #212121;
   
-  font-size:0.975em;
+  font-size:medium;
   
   text-align:center;
-  vertical-align:middle;
+  vertical-align:top;
 
   padding-left:6.66%;
   width:30%;
 }
 
-.content-cat p {
-  font-size:0.70em;
-  font-weight:600;
-  
-  margin-bottom:0;
-}
-
 .content-text {
-  border-left:1px solid #e0e0e0;
   transition: border 0.66s ease-in;
+  vertical-align:top;
 }
 
 .big-text {
   vertical-align:top;
 }
+
 
 .content-text ul {
   padding:0;
@@ -235,7 +219,7 @@ body > div > article > div > section:last-child {
 .content-text ul li:first-child {
   width:35%;
   
-  color: #424242;
+  color: #212121;
   
   font-weight:600;
 }
@@ -253,7 +237,7 @@ body > div > article > div > section:last-child {
   font-family: "Arial";
   font-size:0.7em;
   
-  color: #424242;
+  color: #212121;
   
   margin-left:2em;
   margin-top:0.45em;
@@ -264,10 +248,9 @@ body > div > article > div > section:last-child {
   font-family: "Arial";
   font-size:0.7em;
   
-  color: #424242;
+  color: #212121;
   
-  margin-left:2em;
-  margin-top:0.45em;
+  margin-top:0.25em;
   margin-bottom: 0.45em;
 }
 
@@ -277,27 +260,16 @@ div.content-text.work-listing.education-listing > p:nth-child(2) {
 
 .work-listing .highlight {
   font-family: "Arial";
-  font-size:0.7em;
+  font-size:12px;
   font-weight:400;
   
-  color: #424242;
-  
-  margin-left:3.25em;
-  padding-left:0.5em;
-  
-  border-left:1px solid #e0e0e0;
+  color: #212121;
   
 }
 
 .education-listing > .heading {
-  font-weight:600;
-  
-  margin-top:0.75em;
-  margin-left:2em;
-}
-
-.education-listing > .highlight {
-  margin-left:3.25em;
+  font-weight:bold;
+  font-size:small;
 }
 
 .highlight {
@@ -322,7 +294,6 @@ div.content-text.skills-listing > p {
   font-size:0.7em;
   font-weight:400;
 
-  margin-left: 2em;
   margin-top: 0.45em;
   margin-bottom: 0.45em;
 }
@@ -330,6 +301,19 @@ div.content-text.skills-listing > p {
 div.content-text.skills-listing > p > {
   color:#212121;
 }
+
+.date p {
+	font-size:11.5px;
+	font-style:italic;
+	color: #696969;
+	margin-top:0.45em;
+	text-align:right;
+}
+
+.grey {
+  color: #696969;
+}
+
 
 
 	</style>
@@ -476,16 +460,16 @@ div.content-text.skills-listing > ul > li:first-child {
 						<p class="subtitle">Software Engineer</p>
 					</div>
 
-							<p class="sub-subtitle-email">martin.degenne@gmail.com
+							<p class="normal-write">martin.degenne@gmail.com
 							</p>
 
-							<p class="sub-subtitle-phone">+33 643 627 845
+							<p class="normal-write grey">+33 643 627 845
 							</p>
 				</div>
 			</header>
 			
 			<div class="content-wrapper">
-
+<!- EDUCATION ->
 					<section class="content">
 							<div class="row">
 								<div class="content-cat big-text">
@@ -496,15 +480,15 @@ div.content-text.skills-listing > ul > li:first-child {
 
 								</div>
 								<div class="content-text work-listing education-listing">
-									<p class="heading">Epitech, European Institute of Technology, Paris.</p>
+										<p class="heading">Master of Information Technology in Software Engineering</p>
 
 									<p class="highlight">
-										Master:
-										<i>Information Technology in Software Engineering</i>
+										<strong>Epitech</strong>,
+										<i>Paris, France</i>
 									</p>
 
 								</div>
-								<div class="date row">
+								<div class="work-listing education-listing date">
 									<p>2013 - 2015</p>
 								</div>
 							</div>
@@ -518,15 +502,15 @@ div.content-text.skills-listing > ul > li:first-child {
 
 								</div>
 								<div class="content-text work-listing education-listing">
-									<p class="heading">California State University San Marcos</p>
+										<p class="heading">Exchange Student (Computer Science, English)</p>
 
 									<p class="highlight">
-										Exchange Student:
-										<i>Computer Science, English</i>
+										<strong>California State University San Marcos</strong>,
+										<i>CA, United States</i>
 									</p>
 
 								</div>
-								<div class="date row">
+								<div class="work-listing education-listing date">
 									<p>January 2014 -  August 2014</p>
 								</div>
 							</div>
@@ -540,20 +524,87 @@ div.content-text.skills-listing > ul > li:first-child {
 
 								</div>
 								<div class="content-text work-listing education-listing">
-									<p class="heading">Epitech, European Institute of Technology, Paris.</p>
+										<p class="heading">Bachelor of Computer Science in Software Engineering</p>
 
 									<p class="highlight">
-										Bachelor:
-										<i>Computer Science in Software Engineering</i>
+										<strong>Epitech</strong>,
+										<i>Paris, France</i>
 									</p>
 
 								</div>
-								<div class="date row">
+								<div class="work-listing education-listing date">
 									<p>2010 - 2013</p>
 								</div>
 							</div>
 						</section>
-			
+						<section class="content education-content">
+							<div class="row">
+								<div class="content-cat big-text">
+
+
+
+
+								</div>
+								<div class="content-text work-listing education-listing">
+										<p class="heading">High school Diploma in Sciences</p>
+
+									<p class="highlight">
+										<strong>Lycée René Cassin</strong>,
+										<i>Bayonne, France</i>
+									</p>
+
+								</div>
+								<div class="work-listing education-listing date">
+									<p>2007 - 2010</p>
+								</div>
+							</div>
+						</section>
+
+<!- SKILLS ->						
+								<section class="content">
+									<div class="row">
+										<div class="content-cat">
+											Skills
+										</div>
+										<div class="content-text skills-listing">
+											<p>
+												<span class="name">
+													<strong>
+														Languages:
+
+													</strong>
+												</span>
+
+
+												C++, C, C#, Python, Scala, Java, ASM
+											</p>
+											<p>
+												<span class="name">
+													<strong>
+														Databases:
+
+													</strong>
+												</span>
+
+
+												MySQL, Oracle, MongoDB, PostgreSQL
+											</p>
+											<p>
+												<span class="name">
+													<strong>
+														Big Data:
+
+													</strong>
+												</span>
+
+
+												Hadoop, Spark
+											</p>
+										</div>
+									</div>
+								</section>
+								
+<!- EXPERIENCE ->			
 				<section class="content">
 						<div class="row">
 							<div class="content-cat big-text">
@@ -656,48 +707,7 @@ div.content-text.skills-listing > ul > li:first-child {
 							</section>
 
 
-								<section class="content">
-									<div class="row">
-										<div class="content-cat">
-											Skills
-										</div>
-										<div class="content-text skills-listing">
-											<p>
-												<span class="name">
-													<strong>
-														Languages:
-
-													</strong>
-												</span>
-
-
-												C++, C, C#, Python, Scala, Java, ASM
-											</p>
-											<p>
-												<span class="name">
-													<strong>
-														Databases:
-
-													</strong>
-												</span>
-
-
-												MySQL, Oracle, MongoDB, PostgreSQL
-											</p>
-											<p>
-												<span class="name">
-													<strong>
-														Big Data:
-
-													</strong>
-												</span>
-
-
-												Hadoop, Spark
-											</p>
-										</div>
-									</div>
-								</section>
+								
 
 								<!-- LANGUAGE -->
 								<section class="content">
