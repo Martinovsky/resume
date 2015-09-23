@@ -122,7 +122,7 @@
     ],
     "skills": [
 	{
-	    "name": "Languages",
+	    "name": "Programming Languages",
 	    "keywords": [
 		"C++",
 		"C",
@@ -131,6 +131,14 @@
 		"Scala",
 		"Java",
 		"ASM"
+	    ]
+	},
+	{
+	    "name": "Versioning",
+	    "keywords": [
+		"SVN",
+		"Git",
+		"TFS"
 	    ]
 	},
 	{
@@ -143,21 +151,11 @@
 	    ]
 	},
 	{
-	    "name": "Big Data",
-	    "keywords": [
-		"Hadoop",
-		"Spark"
+		"name": "Languages",
+		"keywords": [
+		"English (Fluent)",
+		"French (Mother Tongue)"
 	    ]
-	}
-    ],
-    "languages": [
-	{
-	    "language": "French",
-	    "fluency": "Native speaker"
-	},
-	{
-	    "language": "English",
-	    "fluency": "Near fluent"
 	}
     ]
 }
