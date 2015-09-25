@@ -66,6 +66,8 @@
 	{
 	    "company": "Epitech Innovation Hub",
 	    "position": "Assistant (Big Data's referent)",
+		"area": "Paris, France",
+		"skills": "C++, Python, MySQL, MongoDB",
 	    "website": "http://hub.epitech.eu/",
 	    "startDate": "September 2014",
 	    "endDate": "february 2015",
@@ -79,6 +81,8 @@
 	{
 	    "company": "CNRS - ISCPIF",
 	    "position": "Programmer",
+		"area": "Paris, France",
+		"skills": "Java, Scala, JDK 1.7",
 	    "website": "http://www.iscpif.fr/tiki-index.php?page=home",
 	    "startDate": "May 2013",
 	    "endDate": "September 2013",
@@ -91,6 +95,8 @@
 	{
 	    "company": "GSM Europe - Billabong",
 	    "position": "Technical support",
+		"area": "Capbreton, France",
+		"skills": "C#, Visual Studio 2008, .NET 2",
 	    "website": "http://www.billabong.com/",
 	    "startDate": "July 2011",
 	    "endDate": "December 2011",
@@ -124,13 +130,12 @@
 	{
 	    "name": "Programming Languages",
 	    "keywords": [
-		"C++",
 		"C",
+		"C++",
 		"C#",
 		"Python",
 		"Scala",
-		"Java",
-		"ASM"
+		"Java"
 	    ]
 	},
 	{
@@ -145,9 +150,8 @@
 	    "name": "Databases",
 	    "keywords": [
 		"MySQL",
-		"Oracle",
-		"MongoDB",
-		"PostgreSQL"
+		"PostgreSQL",
+		"MongoDB"
 	    ]
 	},
 	{

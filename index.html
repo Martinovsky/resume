@@ -6,15 +6,17 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
 	
 	<title>Martin Degenne</title>
-	<link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,700' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
-	
+
 
 	<style>
 	body, html {
   padding-top:2.5em;
   margin:0;
   background-color:#fafafa;
+  font-family: Georgia, ‘Times New Roman’, serif;
+  color: black;
+  font-size: small;
+  font-weight:normal;
 }
 
 .note {
@@ -22,69 +24,18 @@
   position: absolute;
   top:10px;
   left:10px;
-
-  font-family: "Arial";
-  font-size: 0.6em;
-}
-
-.new {
-  background-color: #81C784;
-
-  border: 1px solid #757575;
-  padding: 1px;
-  border-radius: 4px;
-
+  font-size: small;
 }
 
 /* Header */
 
 header {
-  width:100%;
-  vertical-align: middle;
   text-align: right;
 }
 
 .header-content {
   display: inline-block;
-  padding-right: 10%;
-  
-}
-
-.pic {
-  margin: 0 auto;
-  margin-top:-2.5em;
-  
-  border-radius:10em;
-  height:4em;
-  width:4em;
-  
-  border: 2px solid #e0e0e0;
-  transition : all 0.5s linear;
-  
-}
-
-@-webkit-keyframes wiggle {
-  0%   {
-    transform: rotate(0deg);
-  }
-  25%  {
-    transform: rotate(-30deg);
-  }
-  50%  {
-    transform: rotate(15deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
-}
-
-.pic:hover {
-  /*Webkit fix*/
-  -webkit-transform: translateZ(0);
-  
-  cursor:pointer;
-  
-  -webkit-animation: wiggle 0.7s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  padding-right: 10%; 
 }
 
 .header-text {
@@ -93,24 +44,17 @@ header {
 }
 
 header p {
-  text-align:right;
-  font-family: "Arial";
   font-size:-webkit-xxx-large;
-  font-weight:bold;
   margin:0;
-  
-  color: #212121;
 }
 
 .subtitle {
-  font-family: "Arial";
   font-size:x-large;
-  font-weight:bold;
-  color: #696969;
+  color: dimgray;
+  margin-top: 5px;
 }
 
 .normal-write {
-  font-family: "Arial";
   font-size:small;
   font-weight:normal;
 }
@@ -120,12 +64,11 @@ header p {
 .paper {
   margin: 0 auto;
   margin-bottom:1em;
-  width:725px;
+  width:800px;
   background-color:white;
-
   
   padding:0.5em 0 0.5em 0;
-  
+ 
   border-top: 1px solid #e0e0e0;
   border-left: 1px solid #e0e0e0;
   border-right: 1px solid #e0e0e0;
@@ -149,7 +92,7 @@ header p {
   display:table;
   width:100%;
   
-  padding-top:1.5em;
+  padding-top:2.0em;
   
   /*border-top: 1px solid #eeeeee;*/
 }
@@ -158,23 +101,28 @@ header p {
   margin-bottom: 2em;
 }
 
-body > div > article > div > section:last-child {
-  padding-bottom:1.5em;
-}
-
 .row {
     display:table-row;
 }
-.row div {
+.row  > div {
     display:table-cell;
 }
 
+.row  > div > div {
+    display:table;
+	width: 100%;
+}
+
+.row  > div > div > div {
+	display:table-row;
+}
+
+.row  > div > div > div  > div {
+	display:table-cell;
+}
+
 .content-cat {
-  font-family: "Arial";
-  font-weight:bold;
   letter-spacing: 1px;
-  
-  color: #212121;
   
   font-size:medium;
   
@@ -194,47 +142,7 @@ body > div > article > div > section:last-child {
   vertical-align:top;
 }
 
-
-.content-text ul {
-  padding:0;
-  margin:0;
-  margin-top:0.15em;
-  
-  width:85%;
-  margin-left:1.5em;
-}
-
-.content-text ul:last-child {
-  margin-bottom:0.5em;
-}
-
-.content-text ul li {
-  font-family: "Arial";
-  font-size:0.7em;
-  
-  display:inline-block;
-  
-}
-
-.content-text ul li:first-child {
-  width:35%;
-  
-  color: #212121;
-  
-  font-weight:600;
-}
-
-.content-text ul li a, div.content-text.work-listing.education-listing > p > strong > a {
-  text-decoration: none;
-  color: #0277bd;
-}
-
-.content-text ul li a:hover {
-  color:#4fc3f7;
-}
-
 .summary p {
-  font-family: "Arial";
   font-size:0.7em;
   
   color: #212121;
@@ -244,12 +152,7 @@ body > div > article > div > section:last-child {
   margin-bottom: 0.45em;
 }
 
-.work-listing p {
-  font-family: "Arial";
-  font-size:0.7em;
-  
-  color: #212121;
-  
+.work-listing p {  
   margin-top:0.25em;
   margin-bottom: 0.45em;
 }
@@ -259,7 +162,6 @@ div.content-text.work-listing.education-listing > p:nth-child(2) {
 }
 
 .work-listing .highlight {
-  font-family: "Arial";
   font-size:12px;
   font-weight:400;
   
@@ -290,7 +192,6 @@ section.content.education-content > div > div.content-cat {
 }
 
 div.content-text.skills-listing > p {
-  font-family: "Arial";
   font-size:0.7em;
   font-weight:400;
 
@@ -305,13 +206,17 @@ div.content-text.skills-listing > p > {
 .date p {
 	font-size:11.5px;
 	font-style:italic;
-	color: #696969;
+	color: dimgray;
 	margin-top:0.45em;
 	text-align:right;
 }
 
 .grey {
-  color: #696969;
+  color: dimgray;
+}
+
+.name {
+	margin-top: 3px;
 }
 
 
@@ -447,171 +352,145 @@ div.content-text.skills-listing > ul > li:first-child {
 </head>
 <body>
 	
-	<span class="note">Check out new print view! (<strong>Press Ctrl + P</strong>) (Not available in Live-Editor!)</span>
+	<span class="note">Check out new print view! (<strong>Press Ctrl + P</strong>)</span>
 
-	<div class="resume-wrapper">
 		<article class="paper">
+		
 			<header>
 				<div class="header-content">
 					<div class="header-text">
-						<p>
+						<p><strong>
 							Martin Degenne
-						</p>
-						<p class="subtitle">Software Engineer</p>
-					</div>
+						</strong></p>
+						<p class="subtitle"><strong>Software Engineer</strong></p>
 
 							<p class="normal-write">martin.degenne@gmail.com
 							</p>
 
 							<p class="normal-write grey">+33 643 627 845
 							</p>
+					</div>
 				</div>
 			</header>
 			
 			<div class="content-wrapper">
 <!- EDUCATION ->
-					<section class="content">
+						<section class="content">
 							<div class="row">
 								<div class="content-cat big-text">
-
-									Education
-
-
-
+									<strong>Education</strong>
 								</div>
 								<div class="content-text work-listing education-listing">
-										<p class="heading">Master of Information Technology in Software Engineering</p>
-
-									<p class="highlight">
+										<p class="heading"><strong>Master of Information Technology in Software Engineering</strong></p>
+										<p class="highlight">
 										<strong>Epitech</strong>,
 										<i>Paris, France</i>
 									</p>
-
 								</div>
-								<div class="work-listing education-listing date">
+								<div class="date" >
 									<p>2013 - 2015</p>
-								</div>
+								</div>								
 							</div>
+							
 						</section>
 						<section class="content education-content">
 							<div class="row">
 								<div class="content-cat big-text">
-
-
-
-
 								</div>
 								<div class="content-text work-listing education-listing">
-										<p class="heading">Exchange Student (Computer Science, English)</p>
-
-									<p class="highlight">
+										<p class="heading"><strong>Exchange Student (Computer Science, English)</strong></p>
+										<p class="highlight">
 										<strong>California State University San Marcos</strong>,
 										<i>CA, United States</i>
 									</p>
-
 								</div>
-								<div class="work-listing education-listing date">
+								<div class="date" >
 									<p>January 2014 -  August 2014</p>
-								</div>
+								</div>								
 							</div>
+							
 						</section>
 						<section class="content education-content">
 							<div class="row">
 								<div class="content-cat big-text">
-
-
-
-
 								</div>
 								<div class="content-text work-listing education-listing">
-										<p class="heading">Bachelor of Computer Science in Software Engineering</p>
-
-									<p class="highlight">
+										<p class="heading"><strong>Bachelor of Computer Science in Software Engineering</strong></p>
+										<p class="highlight">
 										<strong>Epitech</strong>,
 										<i>Paris, France</i>
 									</p>
-
 								</div>
-								<div class="work-listing education-listing date">
+								<div class="date" >
 									<p>2010 - 2013</p>
-								</div>
+								</div>								
 							</div>
+							
 						</section>
 						<section class="content education-content">
 							<div class="row">
 								<div class="content-cat big-text">
-
-
-
-
 								</div>
 								<div class="content-text work-listing education-listing">
-										<p class="heading">High school Diploma in Sciences</p>
-
-									<p class="highlight">
+										<p class="heading"><strong>High school Diploma in Sciences</strong></p>
+										<p class="highlight">
 										<strong>Lycée René Cassin</strong>,
 										<i>Bayonne, France</i>
 									</p>
-
 								</div>
-								<div class="work-listing education-listing date">
+								<div class="date" >
 									<p>2007 - 2010</p>
-								</div>
+								</div>								
 							</div>
+							
 						</section>
 								
 <!- SKILLS ->						
 								<section class="content">
 									<div class="row">
 										<div class="content-cat">
-											Skills
+											<strong>Skills</strong>
 										</div>
 										<div class="content-text skills-listing">
-<div id="split1">											<p>
+										<div>
+<div id="split1">											<div>
 												<p class="name">
 													<strong>
-														Programming Languages:
-
+														Programming Languages
 													</strong>
 												</p>
 
-
-												C++, C, C#, Python, Scala, Java, ASM
-											</p>
-											<p>
+												<p>C, C++, C#, Python, Scala, Java</p>
+											</div>
+											<div>
 												<p class="name">
 													<strong>
-														Databases:
-
+														Databases
 													</strong>
 												</p>
 
-
-												MySQL, Oracle, MongoDB, PostgreSQL
-											</p>
-</div><div id="split2">											<p>
+												<p>MySQL, PostgreSQL, MongoDB</p>
+											</div>
+</div><div id="split2">											<div>
 												<p class="name">
 													<strong>
-														Versioning:
-
+														Versioning
 													</strong>
 												</p>
 
-
-												SVN, Git, TFS
-											</p>
-											<p>
+												<p>SVN, Git, TFS</p>
+											</div>
+											<div>
 												<p class="name">
 													<strong>
-														Languages:
-
+														Languages
 													</strong>
 												</p>
 
-
-												English (Fluent), French (Mother Tongue)
-											</p>
+												<p>English (Fluent), French (Mother Tongue)</p>
+											</div>
 </div>										</div>
+										</div>
 									</div>
 								</section>
 
@@ -619,65 +498,53 @@ div.content-text.skills-listing > ul > li:first-child {
 <!- EXPERIENCE ->			
 				<section class="content">
 						<div class="row">
-							<div class="content-cat big-text">
-								Work	Experience
-
-								<p>September 2014 till february 2015</p>
-
+							<div class="content-cat">
+								<strong>Work	Experience</strong>
 							</div>
 							<div class="content-text work-listing education-listing">
-								<p>
-									<strong>Assistant (Big Data&#x27;s referent)</strong> at <strong><a href="http://hub.epitech.eu/">Epitech Innovation Hub:</a></strong>
-								</p>
+								
+									<p><strong>Assistant (Big Data&#x27;s referent)</strong></p>
+									<p><strong><a href="http://hub.epitech.eu/">Epitech Innovation Hub,</a></strong> Paris, France - C++, Python, MySQL, MongoDB</p>
 
 								<p>Assist and advice students who want to create an innovative project especially on Big Data.</p>
 
-								<p class="highlight">Benchark different databases and big data solutions</p>
-								<p class="highlight">Setup a local cluster at students&#x27; disposal</p>
-								<p class="highlight">Create a python script to monitor computer utilization</p>
-
-
+							</div>
+							<div class="date">
+								<p>September 2014 - february 2015</p>
 							</div>
 						</div>
 					</section>
 					<section class="content work-content">
 						<div class="row">
-							<div class="content-cat big-text">
-
-								<p>May 2013 till September 2013</p>
-
+							<div class="content-cat">
 							</div>
 							<div class="content-text work-listing education-listing">
-								<p>
-									<strong>Programmer</strong> at <strong><a href="http://www.iscpif.fr/tiki-index.php?page=home">CNRS - ISCPIF:</a></strong>
-								</p>
+								
+									<p><strong>Programmer</strong></p>
+									<p><strong><a href="http://www.iscpif.fr/tiki-index.php?page=home">CNRS - ISCPIF,</a></strong> Paris, France - Java, Scala, JDK 1.7</p>
 
 								<p>Provide an easy and reliable way for searchers to put their project on the LHC Computing Grid.</p>
 
-								<p class="highlight">Package a project in a automated way with all its dependency</p>
-								<p class="highlight">Ensure the safety of the packaged project for the Grid</p>
-
-
+							</div>
+							<div class="date">
+								<p>May 2013 - September 2013</p>
 							</div>
 						</div>
 					</section>
 					<section class="content work-content">
 						<div class="row">
-							<div class="content-cat big-text">
-
-								<p>July 2011 till December 2011</p>
-
+							<div class="content-cat">
 							</div>
 							<div class="content-text work-listing education-listing">
-								<p>
-									<strong>Technical support</strong> at <strong><a href="http://www.billabong.com/">GSM Europe - Billabong:</a></strong>
-								</p>
+								
+									<p><strong>Technical support</strong></p>
+									<p><strong><a href="http://www.billabong.com/">GSM Europe - Billabong,</a></strong> Capbreton, France - C#, Visual Studio 2008, .NET 2</p>
 
 								<p>Provide help and technical support for the different services of the company.</p>
 
-								<p class="highlight">Real-time network and system monitoring</p>
-
-
+							</div>
+							<div class="date">
+								<p>July 2011 - December 2011</p>
 							</div>
 						</div>
 					</section>
@@ -686,7 +553,7 @@ div.content-text.skills-listing > ul > li:first-child {
 						<section class="content">
 								<div class="row">
 									<div class="content-cat big-text">
-										Projects
+										<strong>Projects</strong>
 									</div>
 									<div class="content-text work-listing education-listing">
 											<p>
@@ -721,6 +588,6 @@ div.content-text.skills-listing > ul > li:first-child {
 
 						</article>
 
-					</div>
+
 				</body>
 				</html>

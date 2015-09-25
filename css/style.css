@@ -2,6 +2,10 @@ body, html {
   padding-top:2.5em;
   margin:0;
   background-color:#fafafa;
+  font-family: Georgia, ‘Times New Roman’, serif;
+  color: black;
+  font-size: small;
+  font-weight:normal;
 }
 
 .note {
@@ -9,69 +13,18 @@ body, html {
   position: absolute;
   top:10px;
   left:10px;
-
-  font-family: "Arial";
-  font-size: 0.6em;
-}
-
-.new {
-  background-color: #81C784;
-
-  border: 1px solid #757575;
-  padding: 1px;
-  border-radius: 4px;
-
+  font-size: small;
 }
 
 /* Header */
 
 header {
-  width:100%;
-  vertical-align: middle;
   text-align: right;
 }
 
 .header-content {
   display: inline-block;
-  padding-right: 10%;
-  
-}
-
-.pic {
-  margin: 0 auto;
-  margin-top:-2.5em;
-  
-  border-radius:10em;
-  height:4em;
-  width:4em;
-  
-  border: 2px solid #e0e0e0;
-  transition : all 0.5s linear;
-  
-}
-
-@-webkit-keyframes wiggle {
-  0%   {
-    transform: rotate(0deg);
-  }
-  25%  {
-    transform: rotate(-30deg);
-  }
-  50%  {
-    transform: rotate(15deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
-}
-
-.pic:hover {
-  /*Webkit fix*/
-  -webkit-transform: translateZ(0);
-  
-  cursor:pointer;
-  
-  -webkit-animation: wiggle 0.7s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  padding-right: 10%; 
 }
 
 .header-text {
@@ -80,24 +33,17 @@ header {
 }
 
 header p {
-  text-align:right;
-  font-family: "Arial";
   font-size:-webkit-xxx-large;
-  font-weight:bold;
   margin:0;
-  
-  color: #212121;
 }
 
 .subtitle {
-  font-family: "Arial";
   font-size:x-large;
-  font-weight:bold;
-  color: #696969;
+  color: dimgray;
+  margin-top: 5px;
 }
 
 .normal-write {
-  font-family: "Arial";
   font-size:small;
   font-weight:normal;
 }
@@ -107,12 +53,11 @@ header p {
 .paper {
   margin: 0 auto;
   margin-bottom:1em;
-  width:725px;
+  width:800px;
   background-color:white;
-
   
   padding:0.5em 0 0.5em 0;
-  
+ 
   border-top: 1px solid #e0e0e0;
   border-left: 1px solid #e0e0e0;
   border-right: 1px solid #e0e0e0;
@@ -136,7 +81,7 @@ header p {
   display:table;
   width:100%;
   
-  padding-top:1.5em;
+  padding-top:2.0em;
   
   /*border-top: 1px solid #eeeeee;*/
 }
@@ -145,23 +90,28 @@ header p {
   margin-bottom: 2em;
 }
 
-body > div > article > div > section:last-child {
-  padding-bottom:1.5em;
-}
-
 .row {
     display:table-row;
 }
-.row div {
+.row  > div {
     display:table-cell;
 }
 
+.row  > div > div {
+    display:table;
+	width: 100%;
+}
+
+.row  > div > div > div {
+	display:table-row;
+}
+
+.row  > div > div > div  > div {
+	display:table-cell;
+}
+
 .content-cat {
-  font-family: "Arial";
-  font-weight:bold;
   letter-spacing: 1px;
-  
-  color: #212121;
   
   font-size:medium;
   
@@ -181,47 +131,7 @@ body > div > article > div > section:last-child {
   vertical-align:top;
 }
 
-
-.content-text ul {
-  padding:0;
-  margin:0;
-  margin-top:0.15em;
-  
-  width:85%;
-  margin-left:1.5em;
-}
-
-.content-text ul:last-child {
-  margin-bottom:0.5em;
-}
-
-.content-text ul li {
-  font-family: "Arial";
-  font-size:0.7em;
-  
-  display:inline-block;
-  
-}
-
-.content-text ul li:first-child {
-  width:35%;
-  
-  color: #212121;
-  
-  font-weight:600;
-}
-
-.content-text ul li a, div.content-text.work-listing.education-listing > p > strong > a {
-  text-decoration: none;
-  color: #0277bd;
-}
-
-.content-text ul li a:hover {
-  color:#4fc3f7;
-}
-
 .summary p {
-  font-family: "Arial";
   font-size:0.7em;
   
   color: #212121;
@@ -231,12 +141,7 @@ body > div > article > div > section:last-child {
   margin-bottom: 0.45em;
 }
 
-.work-listing p {
-  font-family: "Arial";
-  font-size:0.7em;
-  
-  color: #212121;
-  
+.work-listing p {  
   margin-top:0.25em;
   margin-bottom: 0.45em;
 }
@@ -246,7 +151,6 @@ div.content-text.work-listing.education-listing > p:nth-child(2) {
 }
 
 .work-listing .highlight {
-  font-family: "Arial";
   font-size:12px;
   font-weight:400;
   
@@ -277,7 +181,6 @@ section.content.education-content > div > div.content-cat {
 }
 
 div.content-text.skills-listing > p {
-  font-family: "Arial";
   font-size:0.7em;
   font-weight:400;
 
@@ -292,13 +195,17 @@ div.content-text.skills-listing > p > {
 .date p {
 	font-size:11.5px;
 	font-style:italic;
-	color: #696969;
+	color: dimgray;
 	margin-top:0.45em;
 	text-align:right;
 }
 
 .grey {
-  color: #696969;
+  color: dimgray;
+}
+
+.name {
+	margin-top: 3px;
 }
 
 
