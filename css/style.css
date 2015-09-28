@@ -2,9 +2,9 @@ body, html {
   padding-top:2.5em;
   margin:0;
   background-color:#fafafa;
-  font-family: Georgia, ‘Times New Roman’, serif;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
   color: black;
-  font-size: small;
+  font-size: 13.5px;
   font-weight:normal;
 }
 
@@ -13,7 +13,7 @@ body, html {
   position: absolute;
   top:10px;
   left:10px;
-  font-size: small;
+  font-size: 13.5px;
 }
 
 /* Header */
@@ -44,7 +44,7 @@ header p {
 }
 
 .normal-write {
-  font-size:small;
+  font-size:13.5px;
   font-weight:normal;
 }
 
@@ -63,12 +63,6 @@ header p {
   border-right: 1px solid #e0e0e0;
   border-bottom: 3px solid #e0e0e0;
   border-radius:3px;
-}
-
-@media(max-width:992px) {
-  .paper {
-    width:80%;
-  }
 }
 
 /* Content Part */
@@ -122,15 +116,6 @@ header p {
   width:30%;
 }
 
-.content-text {
-  transition: border 0.66s ease-in;
-  vertical-align:top;
-}
-
-.big-text {
-  vertical-align:top;
-}
-
 .summary p {
   font-size:0.7em;
   
@@ -146,21 +131,17 @@ header p {
   margin-bottom: 0.45em;
 }
 
+.work-listing > p {  
+  font-size: 12px;
+}
+
 div.content-text.work-listing.education-listing > p:nth-child(2) {
   margin-top:0.25em;
 }
 
 .work-listing .highlight {
   font-size:12px;
-  font-weight:400;
-  
   color: #212121;
-  
-}
-
-.education-listing > .heading {
-  font-weight:bold;
-  font-size:small;
 }
 
 .highlight {
@@ -180,20 +161,17 @@ section.content.education-content > div > div.content-cat {
   vertical-align: top;
 }
 
-div.content-text.skills-listing > p {
-  font-size:0.7em;
-  font-weight:400;
-
-  margin-top: 0.45em;
+div.content-text.skills-listing  p {
+  margin-top: 0.25em;
   margin-bottom: 0.45em;
 }
 
-div.content-text.skills-listing > p > {
-  color:#212121;
+.split div p:nth-child(2) {
+	font-size:12px;
 }
 
 .date p {
-	font-size:11.5px;
+	font-size:12px;
 	font-style:italic;
 	color: dimgray;
 	margin-top:0.45em;
@@ -204,8 +182,6 @@ div.content-text.skills-listing > p > {
   color: dimgray;
 }
 
-.name {
-	margin-top: 3px;
+.split div:nth-child(2) {
+	padding-left: 40px;
 }
-
-

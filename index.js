@@ -53,16 +53,16 @@ function render(resume) {
   });
   
   Handlebars.registerHelper('splitByTwo', function(items, options) {
-	  var ret1 = '<div><div id="split1">';
-	  var ret2 = '<div><div id="split2">';
+	  var ret1 = '<div class="split">';
+	  var ret2 = '<div class="split">';
 	  for(var i=0, j=items.length; i<j; i++) {
 		  if (i % 2 == 0)
 			  ret1 = ret1 + options.fn(items[i]);
 		  else
 			  ret2 = ret2 + options.fn(items[i]);
 	  }
-	  ret1 += '</div></div>';
-	  ret2 += '</div></div>';
+	  ret1 += '</div>';
+	  ret2 += '</div>';
 	  return ret1 + ret2;
   });
 

@@ -59,35 +59,42 @@
 						<section class="content education-content">
 					{{/if}}
 							<div class="row">
-								<div class="content-cat big-text">
+								<div class="content-cat">
 									{{#if $first}}
 									<strong>Education</strong>
 									{{/if}}
 								</div>
 								<div class="content-text work-listing education-listing">
 									{{#if studyType}}
+									<div>
+									<div>
+									<div>
 										<p class="heading"><strong>{{studyType}}</strong></p>
-										{{/if}}
-										<p class="highlight">
-										{{#if institution}}
-										<strong>{{institution}}</strong>,
-										{{/if}}
-										{{#if area}}
-										{{#if gpa}}
-										<i>{{area}} ({{gpa}})</i>
-										{{else}}
-										<i>{{area}}</i>
-										{{/if}}
-										{{/if}}
-									</p>
-								</div>
-								<div class="date" >
+									</div>
+									<div class="date" >
 									{{#if startDate}}
 									{{#if endDate}}
 									<p>{{startDate}} - {{endDate}}</p>
 									{{/if}}
 									{{/if}}
-								</div>								
+									</div>	
+									</div>
+									</div>
+									{{/if}}
+										<p class="highlight">
+									{{#if institution}}
+										<strong>{{institution}}</strong>,
+									{{/if}}
+									{{#if area}}
+									{{#if gpa}}
+										<i>{{area}} ({{gpa}})</i>
+									{{else}}
+										<i>{{area}}</i>
+									{{/if}}
+									{{/if}}
+									</p>
+								</div>
+															
 							</div>
 							
 						</section>
@@ -105,7 +112,7 @@
 										<div>
 											{{#splitByTwo resume.skills}}
 											<div>
-												<p class="name">
+												<p>
 													{{#if name}}
 													<strong>
 														{{name}}
@@ -139,33 +146,34 @@
 						<div class="row">
 							<div class="content-cat">
 								{{#if $first}}
-								<strong>Work	Experience</strong>
+								<strong>Experience</strong>
 								{{/if}}
 							</div>
 							<div class="content-text work-listing education-listing">
 								{{#ifCond company '&&' position}}
-								
-									{{#if website}}
+								<div>
+								<div>
+								<div>
 									<p><strong>{{position}}</strong></p>
-									<p><strong><a href="{{website}}">{{company}},</a></strong> {{area}} - {{skills}}</p>
-									{{else}}
-									<p><strong>{{position}}</strong></p>
-									<p><strong>{{company}},</strong> {{area}} - {{skills}}</p>
-									{{/if}}
+								</div>
+								<div class="date">
+								{{#if startDate}}
+								{{#if endDate}}
+									<p>{{startDate}} - {{endDate}}</p>
+								{{/if}}
+								{{/if}}
+								</div>
+								</div>
+								</div>
+								<p><strong>{{company}},</strong> {{area}} - {{skills}}</p>
 								{{/ifCond}}
 
 								{{#if summary}}
-								<p>{{summary}}</p>
+								<p class="grey">{{summary}}</p>
 								{{/if}}
 
 							</div>
-							<div class="date">
-							{{#if startDate}}
-								{{#if endDate}}
-								<p>{{startDate}} - {{endDate}}</p>
-								{{/if}}
-								{{/if}}
-							</div>
+							
 						</div>
 					</section>
 					{{/foreach}}

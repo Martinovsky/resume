@@ -13,9 +13,9 @@
   padding-top:2.5em;
   margin:0;
   background-color:#fafafa;
-  font-family: Georgia, ‘Times New Roman’, serif;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
   color: black;
-  font-size: small;
+  font-size: 13.5px;
   font-weight:normal;
 }
 
@@ -24,7 +24,7 @@
   position: absolute;
   top:10px;
   left:10px;
-  font-size: small;
+  font-size: 13.5px;
 }
 
 /* Header */
@@ -55,7 +55,7 @@ header p {
 }
 
 .normal-write {
-  font-size:small;
+  font-size:13.5px;
   font-weight:normal;
 }
 
@@ -74,12 +74,6 @@ header p {
   border-right: 1px solid #e0e0e0;
   border-bottom: 3px solid #e0e0e0;
   border-radius:3px;
-}
-
-@media(max-width:992px) {
-  .paper {
-    width:80%;
-  }
 }
 
 /* Content Part */
@@ -133,15 +127,6 @@ header p {
   width:30%;
 }
 
-.content-text {
-  transition: border 0.66s ease-in;
-  vertical-align:top;
-}
-
-.big-text {
-  vertical-align:top;
-}
-
 .summary p {
   font-size:0.7em;
   
@@ -157,21 +142,17 @@ header p {
   margin-bottom: 0.45em;
 }
 
+.work-listing > p {  
+  font-size: 12px;
+}
+
 div.content-text.work-listing.education-listing > p:nth-child(2) {
   margin-top:0.25em;
 }
 
 .work-listing .highlight {
   font-size:12px;
-  font-weight:400;
-  
   color: #212121;
-  
-}
-
-.education-listing > .heading {
-  font-weight:bold;
-  font-size:small;
 }
 
 .highlight {
@@ -191,20 +172,17 @@ section.content.education-content > div > div.content-cat {
   vertical-align: top;
 }
 
-div.content-text.skills-listing > p {
-  font-size:0.7em;
-  font-weight:400;
-
-  margin-top: 0.45em;
+div.content-text.skills-listing  p {
+  margin-top: 0.25em;
   margin-bottom: 0.45em;
 }
 
-div.content-text.skills-listing > p > {
-  color:#212121;
+.split div p:nth-child(2) {
+	font-size:12px;
 }
 
 .date p {
-	font-size:11.5px;
+	font-size:12px;
 	font-style:italic;
 	color: dimgray;
 	margin-top:0.45em;
@@ -215,11 +193,9 @@ div.content-text.skills-listing > p > {
   color: dimgray;
 }
 
-.name {
-	margin-top: 3px;
+.split div:nth-child(2) {
+	padding-left: 40px;
 }
-
-
 
 	</style>
 
@@ -377,70 +353,98 @@ div.content-text.skills-listing > ul > li:first-child {
 <!- EDUCATION ->
 						<section class="content">
 							<div class="row">
-								<div class="content-cat big-text">
+								<div class="content-cat">
 									<strong>Education</strong>
 								</div>
 								<div class="content-text work-listing education-listing">
+									<div>
+									<div>
+									<div>
 										<p class="heading"><strong>Master of Information Technology in Software Engineering</strong></p>
+									</div>
+									<div class="date" >
+									<p>2013 - 2015</p>
+									</div>	
+									</div>
+									</div>
 										<p class="highlight">
 										<strong>Epitech</strong>,
 										<i>Paris, France</i>
 									</p>
 								</div>
-								<div class="date" >
-									<p>2013 - 2015</p>
-								</div>								
+															
 							</div>
 							
 						</section>
 						<section class="content education-content">
 							<div class="row">
-								<div class="content-cat big-text">
+								<div class="content-cat">
 								</div>
 								<div class="content-text work-listing education-listing">
+									<div>
+									<div>
+									<div>
 										<p class="heading"><strong>Exchange Student (Computer Science, English)</strong></p>
+									</div>
+									<div class="date" >
+									<p>January 2014 -  August 2014</p>
+									</div>	
+									</div>
+									</div>
 										<p class="highlight">
 										<strong>California State University San Marcos</strong>,
 										<i>CA, United States</i>
 									</p>
 								</div>
-								<div class="date" >
-									<p>January 2014 -  August 2014</p>
-								</div>								
+															
 							</div>
 							
 						</section>
 						<section class="content education-content">
 							<div class="row">
-								<div class="content-cat big-text">
+								<div class="content-cat">
 								</div>
 								<div class="content-text work-listing education-listing">
+									<div>
+									<div>
+									<div>
 										<p class="heading"><strong>Bachelor of Computer Science in Software Engineering</strong></p>
+									</div>
+									<div class="date" >
+									<p>2010 - 2013</p>
+									</div>	
+									</div>
+									</div>
 										<p class="highlight">
 										<strong>Epitech</strong>,
 										<i>Paris, France</i>
 									</p>
 								</div>
-								<div class="date" >
-									<p>2010 - 2013</p>
-								</div>								
+															
 							</div>
 							
 						</section>
 						<section class="content education-content">
 							<div class="row">
-								<div class="content-cat big-text">
+								<div class="content-cat">
 								</div>
 								<div class="content-text work-listing education-listing">
+									<div>
+									<div>
+									<div>
 										<p class="heading"><strong>High school Diploma in Sciences</strong></p>
+									</div>
+									<div class="date" >
+									<p>2007 - 2010</p>
+									</div>	
+									</div>
+									</div>
 										<p class="highlight">
 										<strong>Lycée René Cassin</strong>,
 										<i>Bayonne, France</i>
 									</p>
 								</div>
-								<div class="date" >
-									<p>2007 - 2010</p>
-								</div>								
+															
 							</div>
 							
 						</section>
@@ -453,8 +457,8 @@ div.content-text.skills-listing > ul > li:first-child {
 										</div>
 										<div class="content-text skills-listing">
 										<div>
-<div id="split1">											<div>
-												<p class="name">
+<div class="split">											<div>
+												<p>
 													<strong>
 														Programming Languages
 													</strong>
@@ -463,16 +467,16 @@ div.content-text.skills-listing > ul > li:first-child {
 												<p>C, C++, C#, Python, Scala, Java</p>
 											</div>
 											<div>
-												<p class="name">
+												<p>
 													<strong>
 														Databases
 													</strong>
 												</p>
 
-												<p>MySQL, PostgreSQL, MongoDB</p>
+												<p>MySQL, SQL Server, MongoDB</p>
 											</div>
-</div><div id="split2">											<div>
-												<p class="name">
+</div><div class="split">											<div>
+												<p>
 													<strong>
 														Versioning
 													</strong>
@@ -481,7 +485,7 @@ div.content-text.skills-listing > ul > li:first-child {
 												<p>SVN, Git, TFS</p>
 											</div>
 											<div>
-												<p class="name">
+												<p>
 													<strong>
 														Languages
 													</strong>
@@ -499,19 +503,25 @@ div.content-text.skills-listing > ul > li:first-child {
 				<section class="content">
 						<div class="row">
 							<div class="content-cat">
-								<strong>Work	Experience</strong>
+								<strong>Experience</strong>
 							</div>
 							<div class="content-text work-listing education-listing">
-								
+								<div>
+								<div>
+								<div>
 									<p><strong>Assistant (Big Data&#x27;s referent)</strong></p>
-									<p><strong><a href="http://hub.epitech.eu/">Epitech Innovation Hub,</a></strong> Paris, France - C++, Python, MySQL, MongoDB</p>
+								</div>
+								<div class="date">
+									<p>September 2014 - february 2015</p>
+								</div>
+								</div>
+								</div>
+								<p><strong>Epitech Innovation Hub,</strong> Paris, France - C++, Python, MySQL, MongoDB</p>
 
-								<p>Assist and advice students who want to create an innovative project especially on Big Data.</p>
+								<p class="grey">Assist and advice students who want to create an innovative project especially on Big Data.</p>
 
 							</div>
-							<div class="date">
-								<p>September 2014 - february 2015</p>
-							</div>
+							
 						</div>
 					</section>
 					<section class="content work-content">
@@ -519,16 +529,22 @@ div.content-text.skills-listing > ul > li:first-child {
 							<div class="content-cat">
 							</div>
 							<div class="content-text work-listing education-listing">
-								
+								<div>
+								<div>
+								<div>
 									<p><strong>Programmer</strong></p>
-									<p><strong><a href="http://www.iscpif.fr/tiki-index.php?page=home">CNRS - ISCPIF,</a></strong> Paris, France - Java, Scala, JDK 1.7</p>
+								</div>
+								<div class="date">
+									<p>May 2013 - September 2013</p>
+								</div>
+								</div>
+								</div>
+								<p><strong>CNRS - ISCPIF,</strong> Paris, France - Java, Scala, JDK 1.7</p>
 
-								<p>Provide an easy and reliable way for searchers to put their project on the LHC Computing Grid.</p>
+								<p class="grey">Provide an easy and reliable way for searchers to put their project on the LHC Computing Grid.</p>
 
 							</div>
-							<div class="date">
-								<p>May 2013 - September 2013</p>
-							</div>
+							
 						</div>
 					</section>
 					<section class="content work-content">
@@ -536,16 +552,22 @@ div.content-text.skills-listing > ul > li:first-child {
 							<div class="content-cat">
 							</div>
 							<div class="content-text work-listing education-listing">
-								
+								<div>
+								<div>
+								<div>
 									<p><strong>Technical support</strong></p>
-									<p><strong><a href="http://www.billabong.com/">GSM Europe - Billabong,</a></strong> Capbreton, France - C#, Visual Studio 2008, .NET 2</p>
+								</div>
+								<div class="date">
+									<p>July 2011 - December 2011</p>
+								</div>
+								</div>
+								</div>
+								<p><strong>GSM Europe - Billabong,</strong> Capbreton, France - C#, Visual Studio 2008, .NET 2</p>
 
-								<p>Provide help and technical support for the different services of the company.</p>
+								<p class="grey">Provide help and technical support for the different services of the company.</p>
 
 							</div>
-							<div class="date">
-								<p>July 2011 - December 2011</p>
-							</div>
+							
 						</div>
 					</section>
 					
