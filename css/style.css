@@ -2,7 +2,7 @@ body, html {
   padding-top:2.5em;
   margin:0;
   background-color:#fafafa;
-  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+  font-family: Georgia, ‘Times New Roman’, serif;
   color: black;
   font-size: 13.5px;
   font-weight:normal;
@@ -44,7 +44,8 @@ header p {
 }
 
 .normal-write {
-  font-size:13.5px;
+  padding-top: 3px;
+  font-size:12px;
   font-weight:normal;
 }
 
@@ -118,8 +119,6 @@ header p {
 
 .summary p {
   font-size:0.7em;
-  
-  color: #212121;
   
   margin-left:2em;
   margin-top:0.45em;

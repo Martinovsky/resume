@@ -3,6 +3,8 @@
 	"name": "Martin Degenne",
 	"label": "Software Engineer",
 	"picture": "",
+	"address": "6 rue de Vanves",
+	"city": "Issy-les-moulineaux, France, 92130",
 	"email": "martin.degenne@gmail.com",
 	"phone": "+33 643 627 845",
 	"summary": ""
@@ -13,97 +15,70 @@
 	    "area": "Paris, France",
 	    "studyType": "Master of Information Technology in Software Engineering",
 	    "startDate": "2013",
-	    "endDate": "2015",
-	    "courses": [
-		"C / Advanced C",
-		"C++ / Advanced C++",
-		"Unix",
-		"Database Management",
-		"Distribued computing",
-		"Machine learning / AI"
-	    ]
+	    "endDate": "2015"
 	},
 	{
 	    "institution": "California State University San Marcos",
 	    "area": "CA, United States",
 	    "studyType": "Exchange Student (Computer Science, English)",
 	    "startDate": "January 2014",
-	    "endDate": " August 2014",
-	    "courses": [
-		"American culture",
-		"English language"
-	    ]
+	    "endDate": " August 2014"
 	},
 	{
 	    "institution": "Epitech",
 	    "area": "Paris, France",
 	    "studyType": "Bachelor of Computer Science in Software Engineering",
 	    "startDate": "2010",
-	    "endDate": "2013",
-	    "courses": [
-		"C / Advanced C",
-		"C++ / Advanced C++",
-		"Unix",
-		"Database Management",
-		"Distribued computing",
-		"Machine learning / AI"
-	    ]
+	    "endDate": "2013"
 	},
 	{
 	    "institution": "Lycée René Cassin",
 	    "area": "Bayonne, France",
 	    "studyType": "High school Diploma in Sciences",
 	    "startDate": "2007",
-	    "endDate": "2010",
-	    "courses": [
-		"Math",
-		"French",
-		"History"
-	    ]
+	    "endDate": "2010"
 	}
     ],
     "work": [
 	{
+	    "company": "FINELOG",
+	    "position": "Software Engineer & Application Consultant",
+		"area": "Paris, France",
+		"skills": "C#, SQL Server, .NET 4.5",
+	    "website": "http://www.finelog.fr/",
+	    "startDate": "May 2015",
+	    "endDate": "October 2015",
+	    "summary": "work in progress"
+	},
+	{
 	    "company": "Epitech Innovation Hub",
-	    "position": "Assistant (Big Data's referent)",
+	    "position": "Assistant Professor",
 		"area": "Paris, France",
 		"skills": "C++, Python, MySQL, MongoDB",
 	    "website": "http://hub.epitech.eu/",
 	    "startDate": "September 2014",
 	    "endDate": "february 2015",
-	    "summary": "Assist and advice students who want to create an innovative project especially on Big Data.",
-	    "highlights": [
-		"Benchark different databases and big data solutions",
-		"Setup a local cluster at students' disposal",
-		"Create a python script to monitor computer utilization"
-	    ]
+	    "summary": "Assist and advice students who want to create an innovative project especially on Big Data."
 	},
 	{
-	    "company": "CNRS - ISCPIF",
-	    "position": "Programmer",
+	    "company": "CNRS",
+	    "position": "Software Engineer (Internship)",
 		"area": "Paris, France",
 		"skills": "Java, Scala, JDK 1.7",
 	    "website": "http://www.iscpif.fr/tiki-index.php?page=home",
 	    "startDate": "May 2013",
 	    "endDate": "September 2013",
-	    "summary": "Provide an easy and reliable way for searchers to put their project on the LHC Computing Grid.",
-	    "highlights": [
-		"Package a project in a automated way with all its dependency",
-		"Ensure the safety of the packaged project for the Grid"
-	    ]
+	    "summary": "Provide an easy and reliable way for searchers to put their project on the LHC Computing Grid."
 	},
 	{
 	    "company": "GSM Europe - Billabong",
-	    "position": "Technical support",
+	    "position": "Technical Support Engineer (Internship)",
 		"area": "Capbreton, France",
-		"skills": "C#, Visual Studio 2008, .NET 2",
+		"skills": "C#, Visual Studio 2010, .NET 2",
 	    "website": "http://www.billabong.com/",
 	    "startDate": "July 2011",
 	    "endDate": "December 2011",
-	    "summary": "Provide help and technical support for the different services of the company.",
-	    "highlights": [
-		"Real-time network and system monitoring"
-	    ]
+	    "summary": "Provide help and technical support for the different services of the company."
 	}
     ],
     "projects": [
@@ -149,8 +124,8 @@
 	{
 	    "name": "Databases",
 	    "keywords": [
-		"MySQL",
 		"SQL Server",
+		"MySQL",
 		"MongoDB"
 	    ]
 	},

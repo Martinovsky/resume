@@ -44,6 +44,16 @@
 							<p class="normal-write grey">{{phone}}
 							</p>
 							{{/if}}
+							
+							{{#if address}}
+							<p class="normal-write grey">{{address}}
+							</p>
+							{{/if}}
+							
+							{{#if city}}
+							<p class="normal-write grey">{{city}}
+							</p>
+							{{/if}}
 					</div>
 				</div>
 			</header>
@@ -195,21 +205,11 @@
 									</div>
 									<div class="content-text work-listing education-listing">
 											<p>
-												{{#if website}}
-												<strong><a href="{{website}}">{{title}}</a></strong> {{#if status}}<i>({{status}}) </i>{{/if}}<strong>:</strong>
-												{{else}}
 												<strong>{{title}}</strong> {{#if status}}<i>({{status}}) </i>{{/if}}<strong>:</strong>
-												{{/if}}
 											</p>
 
 											{{#if description}}
 											<p>{{description}}</p>
-											{{/if}}
-
-											{{#if highlights.length}}
-											{{#each highlights}}
-											<p class="highlight">{{.}}</p>
-											{{/each}}
 											{{/if}}
 									</div>
 								</div>
