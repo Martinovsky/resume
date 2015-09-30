@@ -200,7 +200,7 @@
 								<div class="row">
 									<div class="content-cat big-text">
 										{{#if $first}}
-										<strong>Projects</strong>
+										<strong>Projects & Activities</strong>
 										{{/if}}
 									</div>
 									<div class="content-text work-listing education-listing">

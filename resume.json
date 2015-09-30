@@ -21,8 +21,8 @@
 	    "institution": "California State University San Marcos",
 	    "area": "CA, United States",
 	    "studyType": "Exchange Student (Computer Science, English)",
-	    "startDate": "January 2014",
-	    "endDate": " August 2014"
+	    "startDate": "Jan. 2014",
+	    "endDate": " Aug. 2014"
 	},
 	{
 	    "institution": "Epitech",
@@ -44,7 +44,7 @@
 	    "company": "FINELOG",
 	    "position": "Software Engineer & Application Consultant",
 		"area": "Paris, France",
-		"skills": "C#, SQL Server, .NET 4.5",
+		"skills": "C#, SQL Server, .NET 4.5, LINQ to Entities",
 	    "website": "http://www.finelog.fr/",
 	    "startDate": "May 2015",
 	    "endDate": "October 2015",
@@ -84,17 +84,19 @@
     "projects": [
 	{
 	    "title": "YIRLV2",
-	    "description": "A framework for video game creation in JSON and LUA",
-	    "highlights": [
-		"Set up unit test using the googletest testing framework"
-	    ],
-	    "status": "Beta"
+	    "description": "A video game creation programm who let you build your game in JSON and LUA",
+	    "status": "Betas"
 	},
 	{
-	    "title": "School projects",
+	    "title": "Codecademy",
+	    "description": "It's a web site where I have learned HTML/CSS, PHP, JavaScript and jQuery",
+	    "status": "Learning Activitie"
+	},
+	{
+	    "title": "",
 	    "description": "Project realised during my studies",
 	    "highlights": [
-		"EpiCup : Program a maze solving robot. ASM / C",
+		" : Program a maze solving robot. ASM / C",
 		"Zappy : Simulate a world where thousands of IA can connect and evolve. C / TCP (had to be asynchronous without threading)",
 		"Bomberman : Develop a bomberman game. C / C++ / SDL2",
 		"Media Player : Create your own media player. C# / Multithreading" 
