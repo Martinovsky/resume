@@ -13,14 +13,14 @@
 	{
 	    "institution": "Epitech",
 	    "area": "Paris, France",
-	    "studyType": "Master en technologies de l'information en développement logiciel",
+	    "studyType": "Master en technologies de l'information",
 	    "startDate": "2013",
 	    "endDate": "2015"
 	},
 	{
 	    "institution": "California State University San Marcos",
 	    "area": "CA, United States",
-	    "studyType": "Etudiant étrangé (Informatique, Anglais)",
+	    "studyType": "Echange universitaire (Informatique, Anglais)",
 	    "startDate": "Janvier 2014",
 	    "endDate": " Août 2014"
 	},
@@ -65,7 +65,7 @@
 		"skills": "Java, Scala, JDK 1.7",
 	    "startDate": "Mai 2013",
 	    "endDate": "Septembre 2013",
-	    "summary": "Mettre en place un environnement capable d'emballer un projet avec toutes ses dépendances ou d'en déployer un déjà existant."
+	    "summary": "Mettre en place un environnement capable de fusionner un projet avec toutes ses dépendances ou d'en éclater un déjà existant."
 	},
 	{
 	    "company": "GSM Europe - Billabong",
@@ -74,13 +74,13 @@
 		"skills": "C#, Visual Studio 2010, .NET 2",
 	    "startDate": "Juil. 2011",
 	    "endDate": "Déc. 2011",
-	    "summary": "Résoudre les problèmes techniques et améliorer la vie des utilisateurs avec des outils."
+	    "summary": "Résoudre les problèmes techniques et développer des outils pour faciliter la vie des utilisateurs."
 	}
     ],
     "projects": [
 	{
 	    "title": "Codecademy",
-	    "description": "Apprenez les technologies du web",
+	    "description": "Apprendre les technologies du web",
 	    "status": "Apprentissage"
 	},
 		{

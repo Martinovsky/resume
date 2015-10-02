@@ -13,7 +13,7 @@
 	{
 	    "institution": "Epitech",
 	    "area": "Paris, France",
-	    "studyType": "Master of Information Technology in Software Engineering",
+	    "studyType": "Master of Information Technology",
 	    "startDate": "2013",
 	    "endDate": "2015"
 	},
@@ -47,7 +47,7 @@
 		"skills": "C#, SQL Server, .NET 4.5, LINQ to Entities",
 	    "startDate": "May 2015",
 	    "endDate": "October 2015",
-	    "summary": "Automated the acquisition and validation of products' pictures. (FNAC) "
+	    "summary": "Automatisation of capture and validation of product pictures. (FNAC) "
 	},
 	{
 	    "company": "Epitech Innovation Hub",
@@ -56,7 +56,7 @@
 		"skills": "C++, Python, MySQL, MongoDB",
 	    "startDate": "September 2014",
 	    "endDate": "february 2015",
-	    "summary": "Guided and advised students who wanted to create innovative projects."
+	    "summary": "Advisor for students working on innovative projects."
 	},
 	{
 	    "company": "CNRS",
@@ -65,7 +65,7 @@
 		"skills": "Java, Scala, JDK 1.7",
 	    "startDate": "May 2013",
 	    "endDate": "September 2013",
-	    "summary": "Established an environment which could package a project with all its dependency or unpacked an existing one."
+	    "summary": "I improved an environment wich could package a project with all its subprojects or unpack an existing one."
 	},
 	{
 	    "company": "GSM Europe - Billabong",
