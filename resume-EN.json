@@ -1,0 +1,131 @@
+{
+    "basics": {
+	"name": "Martin Degenne",
+	"label": "Software Engineer",
+	"picture": "",
+	"address": "6 rue de Vanves",
+	"city": "Issy-les-moulineaux, France, 92130",
+	"email": "martin.degenne@gmail.com",
+	"phone": "+33 643 627 845",
+	"summary": ""
+    },
+    "education": [
+	{
+	    "institution": "Epitech",
+	    "area": "Paris, France",
+	    "studyType": "Master of Information Technology in Software Engineering",
+	    "startDate": "2013",
+	    "endDate": "2015"
+	},
+	{
+	    "institution": "California State University San Marcos",
+	    "area": "CA, United States",
+	    "studyType": "Exchange Student (Computer Science, English)",
+	    "startDate": "Jan. 2014",
+	    "endDate": " Aug. 2014"
+	},
+	{
+	    "institution": "Epitech",
+	    "area": "Paris, France",
+	    "studyType": "Bachelor of Computer Science in Software Engineering",
+	    "startDate": "2010",
+	    "endDate": "2013"
+	},
+	{
+	    "institution": "Lycée René Cassin",
+	    "area": "Bayonne, France",
+	    "studyType": "High school Diploma in Sciences",
+	    "startDate": "2007",
+	    "endDate": "2010"
+	}
+    ],
+    "work": [
+	{
+	    "company": "FINELOG",
+	    "position": "Software Engineer & Application Consultant",
+		"area": "Paris, France",
+		"skills": "C#, SQL Server, .NET 4.5, LINQ to Entities",
+	    "startDate": "May 2015",
+	    "endDate": "October 2015",
+	    "summary": "Automated the acquisition and validation of products' pictures. (FNAC) "
+	},
+	{
+	    "company": "Epitech Innovation Hub",
+	    "position": "Assistant Professor",
+		"area": "Paris, France",
+		"skills": "C++, Python, MySQL, MongoDB",
+	    "startDate": "September 2014",
+	    "endDate": "february 2015",
+	    "summary": "Guided and advised students who wanted to create innovative projects."
+	},
+	{
+	    "company": "CNRS",
+	    "position": "Software Engineer (Internship)",
+		"area": "Paris, France",
+		"skills": "Java, Scala, JDK 1.7",
+	    "startDate": "May 2013",
+	    "endDate": "September 2013",
+	    "summary": "Established an environment which could package a project with all its dependency or unpacked an existing one."
+	},
+	{
+	    "company": "GSM Europe - Billabong",
+	    "position": "Technical Support & tools developper (Internship)",
+		"area": "Capbreton, France",
+		"skills": "C#, Visual Studio 2010, .NET 2",
+	    "startDate": "July 2011",
+	    "endDate": "December 2011",
+	    "summary": "Resolved users' technical problems and improved their daily life with efficient tools."
+	}
+    ],
+    "projects": [
+	{
+	    "title": "Codecademy",
+	    "description": "Learn web technologies",
+	    "status": "Learning Activitie"
+	},
+		{
+	    "title": "Resume",
+	    "description": "Generate your resume from a JSON file - HTML/CSS, JavaScript, handlebars.js",
+	    "status": "Beta"
+	}
+    ],
+    "skills": [
+	{
+	    "name": "Programming Languages",
+	    "keywords": [
+		"C#",
+		"C++",
+		"C",
+		"Python",
+		"Scala",
+		"Java",
+		"JavaScript",
+		"HTML/CSS",
+		"PHP"
+	    ]
+	},
+	{
+	    "name": "Versioning",
+	    "keywords": [
+		"SVN",
+		"Git",
+		"TFS"
+	    ]
+	},
+	{
+	    "name": "Databases",
+	    "keywords": [
+		"SQL Server",
+		"MySQL",
+		"MongoDB"
+	    ]
+	},
+	{
+		"name": "Languages",
+		"keywords": [
+		"English (Fluent)",
+		"French"
+	    ]
+	}
+    ]
+}

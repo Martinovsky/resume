@@ -1,7 +1,7 @@
 {
     "basics": {
 	"name": "Martin Degenne",
-	"label": "Software Engineer",
+	"label": "Développeur Logiciel",
 	"picture": "",
 	"address": "6 rue de Vanves",
 	"city": "Issy-les-moulineaux, France, 92130",
@@ -13,28 +13,28 @@
 	{
 	    "institution": "Epitech",
 	    "area": "Paris, France",
-	    "studyType": "Master of Information Technology in Software Engineering",
+	    "studyType": "Master en technologies de l'information en développement logiciel",
 	    "startDate": "2013",
 	    "endDate": "2015"
 	},
 	{
 	    "institution": "California State University San Marcos",
 	    "area": "CA, United States",
-	    "studyType": "Exchange Student (Computer Science, English)",
-	    "startDate": "Jan. 2014",
-	    "endDate": " Aug. 2014"
+	    "studyType": "Etudiant étrangé (Informatique, Anglais)",
+	    "startDate": "Janvier 2014",
+	    "endDate": " Août 2014"
 	},
 	{
 	    "institution": "Epitech",
 	    "area": "Paris, France",
-	    "studyType": "Bachelor of Computer Science in Software Engineering",
+	    "studyType": "Bachelor d'informatique en développement logiciel",
 	    "startDate": "2010",
 	    "endDate": "2013"
 	},
 	{
 	    "institution": "Lycée René Cassin",
 	    "area": "Bayonne, France",
-	    "studyType": "High school Diploma in Sciences",
+	    "studyType": "Baccalauréat scientifique spécialité mathématiques",
 	    "startDate": "2007",
 	    "endDate": "2010"
 	}
@@ -42,81 +42,70 @@
     "work": [
 	{
 	    "company": "FINELOG",
-	    "position": "Software Engineer & Application Consultant",
+	    "position": "Ingénieur d'étude et de développement",
 		"area": "Paris, France",
 		"skills": "C#, SQL Server, .NET 4.5, LINQ to Entities",
-	    "website": "http://www.finelog.fr/",
-	    "startDate": "May 2015",
-	    "endDate": "October 2015",
-	    "summary": "work in progress"
+	    "startDate": "Mai 2015",
+	    "endDate": "Octobre 2015",
+	    "summary": "Automatiser la récupération et la validation des photos des produits. (FNAC)"
 	},
 	{
 	    "company": "Epitech Innovation Hub",
-	    "position": "Assistant Professor",
+	    "position": "Assistant professeur",
 		"area": "Paris, France",
 		"skills": "C++, Python, MySQL, MongoDB",
-	    "website": "http://hub.epitech.eu/",
-	    "startDate": "September 2014",
-	    "endDate": "february 2015",
-	    "summary": "Assist and advice students who want to create an innovative project especially on Big Data."
+	    "startDate": "Septembre 2014",
+	    "endDate": "Février 2015",
+	    "summary": "Guider et conseiller les étudiants souhaitant créer des projets innovants."
 	},
 	{
 	    "company": "CNRS",
-	    "position": "Software Engineer (Internship)",
+	    "position": "Développeur logiciel (stage)",
 		"area": "Paris, France",
 		"skills": "Java, Scala, JDK 1.7",
-	    "website": "http://www.iscpif.fr/tiki-index.php?page=home",
-	    "startDate": "May 2013",
-	    "endDate": "September 2013",
-	    "summary": "Provide an easy and reliable way for searchers to put their project on the LHC Computing Grid."
+	    "startDate": "Mai 2013",
+	    "endDate": "Septembre 2013",
+	    "summary": "Mettre en place un environnement capable d'emballer un projet avec toutes ses dépendances ou d'en déployer un déjà existant."
 	},
 	{
 	    "company": "GSM Europe - Billabong",
-	    "position": "Technical Support Engineer (Internship)",
+	    "position": "Support technique et développeur d'outils (stage)",
 		"area": "Capbreton, France",
 		"skills": "C#, Visual Studio 2010, .NET 2",
-	    "website": "http://www.billabong.com/",
-	    "startDate": "July 2011",
-	    "endDate": "December 2011",
-	    "summary": "Provide help and technical support for the different services of the company."
+	    "startDate": "Juil. 2011",
+	    "endDate": "Déc. 2011",
+	    "summary": "Résoudre les problèmes techniques et améliorer la vie des utilisateurs avec des outils."
 	}
     ],
     "projects": [
 	{
-	    "title": "YIRLV2",
-	    "description": "A video game creation programm who let you build your game in JSON and LUA",
-	    "status": "Betas"
-	},
-	{
 	    "title": "Codecademy",
-	    "description": "It's a web site where I have learned HTML/CSS, PHP, JavaScript and jQuery",
-	    "status": "Learning Activitie"
+	    "description": "Apprenez les technologies du web",
+	    "status": "Apprentissage"
 	},
-	{
-	    "title": "",
-	    "description": "Project realised during my studies",
-	    "highlights": [
-		" : Program a maze solving robot. ASM / C",
-		"Zappy : Simulate a world where thousands of IA can connect and evolve. C / TCP (had to be asynchronous without threading)",
-		"Bomberman : Develop a bomberman game. C / C++ / SDL2",
-		"Media Player : Create your own media player. C# / Multithreading" 
-	    ]
+		{
+	    "title": "Resume",
+	    "description": "Générez votre CV depuis un simple fichier JSON - HTML/CSS, JavaScript, handlebars.js",
+	    "status": "Bêta"
 	}
     ],
     "skills": [
 	{
-	    "name": "Programming Languages",
+	    "name": "Langages de Programmation",
 	    "keywords": [
-		"C",
-		"C++",
 		"C#",
+		"C++",
+		"C",
 		"Python",
 		"Scala",
-		"Java"
+		"Java",
+		"JavaScript",
+		"HTML/CSS",
+		"PHP"
 	    ]
 	},
 	{
-	    "name": "Versioning",
+	    "name": "Gestionnaires de versions",
 	    "keywords": [
 		"SVN",
 		"Git",
@@ -124,7 +113,7 @@
 	    ]
 	},
 	{
-	    "name": "Databases",
+	    "name": "Bases de données",
 	    "keywords": [
 		"SQL Server",
 		"MySQL",
@@ -132,10 +121,10 @@
 	    ]
 	},
 	{
-		"name": "Languages",
+		"name": "Langues",
 		"keywords": [
-		"English (Fluent)",
-		"French (Mother Tongue)"
+		"Anglais (Courant)",
+		"Français"
 	    ]
 	}
     ]

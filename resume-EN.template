@@ -71,7 +71,7 @@
 							<div class="row">
 								<div class="content-cat">
 									{{#if $first}}
-									<strong>Éducation</strong>
+									<strong>Education</strong>
 									{{/if}}
 								</div>
 								<div class="content-text work-listing education-listing">
@@ -116,7 +116,7 @@
 								<section class="content">
 									<div class="row">
 										<div class="content-cat">
-											<strong>Compétences</strong>
+											<strong>Skills</strong>
 										</div>
 										<div class="content-text skills-listing">
 										<div>
@@ -156,7 +156,7 @@
 						<div class="row">
 							<div class="content-cat">
 								{{#if $first}}
-								<strong>Expériences</strong>
+								<strong>Experience</strong>
 								{{/if}}
 							</div>
 							<div class="content-text work-listing education-listing">
@@ -200,7 +200,7 @@
 								<div class="row">
 									<div class="content-cat big-text">
 										{{#if $first}}
-										<strong>Projets & Activités</strong>
+										<strong>Projects & Activities</strong>
 										{{/if}}
 									</div>
 									<div class="content-text work-listing education-listing">
