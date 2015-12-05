@@ -1,7 +1,7 @@
 {
     "basics": {
 	"name": "Martin Degenne",
-	"label": "Développeur Logiciel",
+	"label": "Software Engineer",
 	"picture": "",
 	"address": "6 rue de Vanves",
 	"city": "Issy-les-moulineaux, France, 92130",
@@ -13,28 +13,28 @@
 	{
 	    "institution": "Epitech",
 	    "area": "Paris, France",
-	    "studyType": "Master en technologies de l'information",
+	    "studyType": "Master of Information Technology",
 	    "startDate": "2013",
 	    "endDate": "2015"
 	},
 	{
 	    "institution": "California State University San Marcos",
 	    "area": "CA, United States",
-	    "studyType": "Echange universitaire (Informatique, Anglais)",
-	    "startDate": "Janvier 2014",
-	    "endDate": " Août 2014"
+	    "studyType": "Exchange Student (Computer Science, English)",
+	    "startDate": "Jan. 2014",
+	    "endDate": " Aug. 2014"
 	},
 	{
 	    "institution": "Epitech",
 	    "area": "Paris, France",
-	    "studyType": "Bachelor d'informatique en développement logiciel",
+	    "studyType": "Bachelor of Computer Science in Software Engineering",
 	    "startDate": "2010",
 	    "endDate": "2013"
 	},
 	{
 	    "institution": "Lycée René Cassin",
 	    "area": "Bayonne, France",
-	    "studyType": "Baccalauréat scientifique spécialité mathématiques",
+	    "studyType": "High school Diploma in Sciences",
 	    "startDate": "2007",
 	    "endDate": "2010"
 	}
@@ -42,56 +42,56 @@
     "work": [
 	{
 	    "company": "FINELOG",
-	    "position": "Ingénieur d'étude et de développement",
+	    "position": "Software Engineer & Application Consultant",
 		"area": "Paris, France",
 		"skills": "C#, SQL Server, .NET 4.5, LINQ to Entities",
-	    "startDate": "Mai 2015",
-	    "endDate": "Octobre 2015",
-	    "summary": "Automatiser la récupération et la validation des photos des produits. (FNAC)"
+	    "startDate": "May 2015",
+	    "endDate": "October 2015",
+	    "summary": "Automatisation of capture and validation of product pictures. (FNAC) "
 	},
 	{
 	    "company": "Epitech Innovation Hub",
-	    "position": "Assistant professeur",
+	    "position": "Assistant Professor",
 		"area": "Paris, France",
 		"skills": "C++, Python, MySQL, MongoDB",
-	    "startDate": "Septembre 2014",
-	    "endDate": "Février 2015",
-	    "summary": "Guider et conseiller les étudiants souhaitant créer des projets innovants."
+	    "startDate": "September 2014",
+	    "endDate": "february 2015",
+	    "summary": "Advisor for students working on innovative projects."
 	},
 	{
 	    "company": "CNRS",
-	    "position": "Développeur logiciel (stage)",
+	    "position": "Software Engineer (Internship)",
 		"area": "Paris, France",
 		"skills": "Java, Scala, JDK 1.7",
-	    "startDate": "Mai 2013",
-	    "endDate": "Septembre 2013",
-	    "summary": "Mettre en place un environnement capable de fusionner un projet avec toutes ses dépendances ou d'en éclater un déjà existant."
+	    "startDate": "May 2013",
+	    "endDate": "September 2013",
+	    "summary": "I improved an environment which could package a project with all its subprojects or unpack an existing one."
 	},
 	{
 	    "company": "GSM Europe - Billabong",
-	    "position": "Support technique et développeur d'outils (stage)",
+	    "position": "Technical Support & tools developper (Internship)",
 		"area": "Capbreton, France",
 		"skills": "C#, Visual Studio 2010, .NET 2",
-	    "startDate": "Juil. 2011",
-	    "endDate": "Déc. 2011",
-	    "summary": "Résoudre les problèmes techniques et développer des outils pour faciliter la vie des utilisateurs."
+	    "startDate": "July 2011",
+	    "endDate": "December 2011",
+	    "summary": "Resolved users' technical problems and improved their daily life with efficient tools."
 	}
     ],
     "projects": [
 	{
 	    "title": "Codecademy",
-	    "description": "Apprendre les technologies du web",
-	    "status": "Apprentissage"
+	    "description": "Learn web technologies",
+	    "status": "Learning Activitie"
 	},
 		{
 	    "title": "Resume",
-	    "description": "Générez votre CV depuis un simple fichier JSON - HTML/CSS, JavaScript, handlebars.js",
-	    "status": "Bêta"
+	    "description": "Generate your resume from a JSON file - HTML/CSS, JavaScript, handlebars.js",
+	    "status": "Beta"
 	}
     ],
     "skills": [
 	{
-	    "name": "Langages de Programmation",
+	    "name": "Programming Languages",
 	    "keywords": [
 		"C#",
 		"C++",
@@ -105,7 +105,7 @@
 	    ]
 	},
 	{
-	    "name": "Gestionnaires de versions",
+	    "name": "Versioning",
 	    "keywords": [
 		"SVN",
 		"Git",
@@ -113,7 +113,7 @@
 	    ]
 	},
 	{
-	    "name": "Bases de données",
+	    "name": "Databases",
 	    "keywords": [
 		"SQL Server",
 		"MySQL",
@@ -121,10 +121,10 @@
 	    ]
 	},
 	{
-		"name": "Langues",
+		"name": "Languages",
 		"keywords": [
-		"Anglais (Courant)",
-		"Français"
+		"English (Fluent)",
+		"French"
 	    ]
 	}
     ]

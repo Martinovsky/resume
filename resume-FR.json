@@ -1,0 +1,131 @@
+{
+    "basics": {
+	"name": "Martin Degenne",
+	"label": "Développeur Logiciel",
+	"picture": "",
+	"address": "6 rue de Vanves",
+	"city": "Issy-les-moulineaux, France, 92130",
+	"email": "martin.degenne@gmail.com",
+	"phone": "+33 643 627 845",
+	"summary": ""
+    },
+    "education": [
+	{
+	    "institution": "Epitech",
+	    "area": "Paris, France",
+	    "studyType": "Master en technologies de l'information",
+	    "startDate": "2013",
+	    "endDate": "2015"
+	},
+	{
+	    "institution": "California State University San Marcos",
+	    "area": "CA, United States",
+	    "studyType": "Echange universitaire (Informatique, Anglais)",
+	    "startDate": "Janvier 2014",
+	    "endDate": " Août 2014"
+	},
+	{
+	    "institution": "Epitech",
+	    "area": "Paris, France",
+	    "studyType": "Bachelor d'informatique en développement logiciel",
+	    "startDate": "2010",
+	    "endDate": "2013"
+	},
+	{
+	    "institution": "Lycée René Cassin",
+	    "area": "Bayonne, France",
+	    "studyType": "Baccalauréat scientifique spécialité mathématiques",
+	    "startDate": "2007",
+	    "endDate": "2010"
+	}
+    ],
+    "work": [
+	{
+	    "company": "FINELOG",
+	    "position": "Ingénieur d'étude et de développement",
+		"area": "Paris, France",
+		"skills": "C#, SQL Server, .NET 4.5, LINQ to Entities",
+	    "startDate": "Mai 2015",
+	    "endDate": "Octobre 2015",
+	    "summary": "Automatiser la récupération et la validation des photos des produits. (FNAC)"
+	},
+	{
+	    "company": "Epitech Innovation Hub",
+	    "position": "Assistant professeur",
+		"area": "Paris, France",
+		"skills": "C++, Python, MySQL, MongoDB",
+	    "startDate": "Septembre 2014",
+	    "endDate": "Février 2015",
+	    "summary": "Guider et conseiller les étudiants souhaitant créer des projets innovants."
+	},
+	{
+	    "company": "CNRS",
+	    "position": "Développeur logiciel (stage)",
+		"area": "Paris, France",
+		"skills": "Java, Scala, JDK 1.7",
+	    "startDate": "Mai 2013",
+	    "endDate": "Septembre 2013",
+	    "summary": "Mettre en place un environnement capable de fusionner un projet avec toutes ses dépendances ou d'en éclater un déjà existant."
+	},
+	{
+	    "company": "GSM Europe - Billabong",
+	    "position": "Support technique et développeur d'outils (stage)",
+		"area": "Capbreton, France",
+		"skills": "C#, Visual Studio 2010, .NET 2",
+	    "startDate": "Juil. 2011",
+	    "endDate": "Déc. 2011",
+	    "summary": "Résoudre les problèmes techniques et développer des outils pour faciliter la vie des utilisateurs."
+	}
+    ],
+    "projects": [
+	{
+	    "title": "Codecademy",
+	    "description": "Apprendre les technologies du web",
+	    "status": "Apprentissage"
+	},
+		{
+	    "title": "Resume",
+	    "description": "Générez votre CV depuis un simple fichier JSON - HTML/CSS, JavaScript, handlebars.js",
+	    "status": "Bêta"
+	}
+    ],
+    "skills": [
+	{
+	    "name": "Langages de Programmation",
+	    "keywords": [
+		"C#",
+		"C++",
+		"C",
+		"Python",
+		"Scala",
+		"Java",
+		"JavaScript",
+		"HTML/CSS",
+		"PHP"
+	    ]
+	},
+	{
+	    "name": "Gestionnaires de versions",
+	    "keywords": [
+		"SVN",
+		"Git",
+		"TFS"
+	    ]
+	},
+	{
+	    "name": "Bases de données",
+	    "keywords": [
+		"SQL Server",
+		"MySQL",
+		"MongoDB"
+	    ]
+	},
+	{
+		"name": "Langues",
+		"keywords": [
+		"Anglais (Courant)",
+		"Français"
+	    ]
+	}
+    ]
+}
