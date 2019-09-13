@@ -4,7 +4,7 @@
 	"label": "Software Engineer",
 	"picture": "",
 	"address": "6 rue de Vanves",
-	"city": "Issy-les-moulineaux, France, 92130",
+	"city": "92130 Issy-les-moulineaux, FRANCE",
 	"email": "martin.degenne@gmail.com",
 	"phone": "+33 643 627 845",
 	"summary": ""
@@ -30,63 +30,62 @@
 	    "studyType": "Bachelor of Computer Science in Software Engineering",
 	    "startDate": "2010",
 	    "endDate": "2013"
-	},
-	{
-	    "institution": "Lycée René Cassin",
-	    "area": "Bayonne, France",
-	    "studyType": "High school Diploma in Sciences",
-	    "startDate": "2007",
-	    "endDate": "2010"
 	}
     ],
     "work": [
 	{
+	    "company": "Sunlight Solutions",
+	    "position": "Software Engineer",
+		"area": "Paris, France",
+		"skills": "C#, CSS, JavaScript, SQL, Git",
+	    "startDate": "November 2018",
+	    "endDate": "Current Position",
+	    "summary": "General improvement of the solution and REST API developer. Currently working on improving the product localization."
+	}
+	,{
+	    "company": "TLD",
+	    "position": "Junior Software Engineer",
+		"area": "Sherbrooke, Canada",
+		"skills": "PHP, HTML, CSS, JavaScript, C#, SQL, Git, Linux",
+	    "startDate": "February 2016",
+	    "endDate": "April 2018",
+	    "summary": "Main web developer of several modules on TLD intranet (~800k LOC) and the only C# developer for the TLD sales application. Worked every day with an international team of around 20 people."
+	},
+	{
 	    "company": "FINELOG",
-	    "position": "Software Engineer & Application Consultant",
+	    "position": "Junior Application Consultant",
 		"area": "Paris, France",
 		"skills": "C#, SQL Server, .NET 4.5, LINQ to Entities",
 	    "startDate": "May 2015",
 	    "endDate": "October 2015",
-	    "summary": "Automatisation of capture and validation of product pictures. (FNAC) "
+	    "summary": "Automatisation of picture capture and validation of product pictures. (FNAC) "
 	},
 	{
 	    "company": "Epitech Innovation Hub",
 	    "position": "Assistant Professor",
 		"area": "Paris, France",
-		"skills": "C++, Python, MySQL, MongoDB",
+		"skills": "C++, Python, MySQL, MongoDB, Linux",
 	    "startDate": "September 2014",
 	    "endDate": "february 2015",
 	    "summary": "Advisor for students working on innovative projects."
 	},
 	{
 	    "company": "CNRS",
-	    "position": "Software Engineer (Internship)",
+	    "position": "Intern Software Engineer",
 		"area": "Paris, France",
 		"skills": "Java, Scala, JDK 1.7",
 	    "startDate": "May 2013",
 	    "endDate": "September 2013",
-	    "summary": "I improved an environment which could package a project with all its subprojects or unpack an existing one."
+	    "summary": "Improvement of an internal project which could package a solution with all its subprojects or unpack an existing one."
 	},
 	{
 	    "company": "GSM Europe - Billabong",
-	    "position": "Technical Support & tools developper (Internship)",
+	    "position": "Intern Support & tools developper",
 		"area": "Capbreton, France",
 		"skills": "C#, Visual Studio 2010, .NET 2",
 	    "startDate": "July 2011",
 	    "endDate": "December 2011",
-	    "summary": "Resolved users' technical problems and improved their daily life with efficient tools."
-	}
-    ],
-    "projects": [
-	{
-	    "title": "Codecademy",
-	    "description": "Learn web technologies",
-	    "status": "Learning Activitie"
-	},
-		{
-	    "title": "Resume",
-	    "description": "Generate your resume from a JSON file - HTML/CSS, JavaScript, handlebars.js",
-	    "status": "Beta"
+	    "summary": "Solve users' technical problems and, if possible, automate the process with a tool."
 	}
     ],
     "skills": [
@@ -97,18 +96,17 @@
 		"C++",
 		"C",
 		"Python",
-		"Scala",
-		"Java",
 		"JavaScript",
-		"HTML/CSS",
+		"HTML",
+		"CSS",
 		"PHP"
 	    ]
 	},
 	{
 	    "name": "Versioning",
 	    "keywords": [
-		"SVN",
 		"Git",
+		"SVN",
 		"TFS"
 	    ]
 	},

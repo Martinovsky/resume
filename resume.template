@@ -60,57 +60,7 @@
 			{{/resume.basics}}
 			
 			<div class="content-wrapper">
-<!- EDUCATION ->
-					{{#if resume.education.length}}
-					{{#foreach resume.education}}
-					{{#if $first}}
-						<section class="content">
-					{{else}}
-						<section class="content education-content">
-					{{/if}}
-							<div class="row">
-								<div class="content-cat">
-									{{#if $first}}
-									<strong>Education</strong>
-									{{/if}}
-								</div>
-								<div class="content-text work-listing education-listing">
-									{{#if studyType}}
-									<div>
-									<div>
-									<div>
-										<p class="heading"><strong>{{studyType}}</strong></p>
-									</div>
-									<div class="date" >
-									{{#if startDate}}
-									{{#if endDate}}
-									<p>{{startDate}} - {{endDate}}</p>
-									{{/if}}
-									{{/if}}
-									</div>	
-									</div>
-									</div>
-									{{/if}}
-										<p class="highlight">
-									{{#if institution}}
-										<strong>{{institution}}</strong>,
-									{{/if}}
-									{{#if area}}
-									{{#if gpa}}
-										<i>{{area}} ({{gpa}})</i>
-									{{else}}
-										<i>{{area}}</i>
-									{{/if}}
-									{{/if}}
-									</p>
-								</div>
-															
-							</div>
-							
-						</section>
-						{{/foreach}}
-						{{/if}}
-								
+
 <!- SKILLS ->						
 								{{#if resume.skills.length}}
 								<section class="content">
@@ -188,7 +138,57 @@
 					</section>
 					{{/foreach}}
 					{{/if}}
-					
+<!- EDUCATION ->
+					{{#if resume.education.length}}
+					{{#foreach resume.education}}
+					{{#if $first}}
+						<section class="content">
+					{{else}}
+						<section class="content education-content">
+					{{/if}}
+							<div class="row">
+								<div class="content-cat">
+									{{#if $first}}
+									<strong>Education</strong>
+									{{/if}}
+								</div>
+								<div class="content-text work-listing education-listing">
+									{{#if studyType}}
+									<div>
+									<div>
+									<div>
+										<p class="heading"><strong>{{studyType}}</strong></p>
+									</div>
+									<div class="date" >
+									{{#if startDate}}
+									{{#if endDate}}
+									<p>{{startDate}} - {{endDate}}</p>
+									{{/if}}
+									{{/if}}
+									</div>	
+									</div>
+									</div>
+									{{/if}}
+										<p class="highlight">
+									{{#if institution}}
+										<strong>{{institution}}</strong>,
+									{{/if}}
+									{{#if area}}
+									{{#if gpa}}
+										<i>{{area}} ({{gpa}})</i>
+									{{else}}
+										<i>{{area}}</i>
+									{{/if}}
+									{{/if}}
+									</p>
+								</div>
+															
+							</div>
+							
+						</section>
+						{{/foreach}}
+						{{/if}}
+													
 <!- PROJECT ->
 						{{#if resume.projects.length}}
 						{{#foreach resume.projects}}
