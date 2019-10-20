@@ -4,7 +4,7 @@
 	"label": "Développeur Logiciel",
 	"picture": "",
 	"address": "6 rue de Vanves",
-	"city": "Issy-les-moulineaux, France, 92130",
+	"city": "92130 Issy-les-moulineaux, FRANCE",
 	"email": "martin.degenne@gmail.com",
 	"phone": "+33 643 627 845",
 	"summary": ""
@@ -30,19 +30,30 @@
 	    "studyType": "Bachelor d'informatique en développement logiciel",
 	    "startDate": "2010",
 	    "endDate": "2013"
-	},
-	{
-	    "institution": "Lycée René Cassin",
-	    "area": "Bayonne, France",
-	    "studyType": "Baccalauréat scientifique spécialité mathématiques",
-	    "startDate": "2007",
-	    "endDate": "2010"
 	}
     ],
     "work": [
 	{
+	    "company": "Sunlight Solutions",
+	    "position": "Développeur logiciel",
+		"area": "Paris, France",
+		"skills": "C#, CSS, JavaScript, SQL, Git",
+	    "startDate": "Novembre 2018",
+	    "endDate": "Position actuelle",
+	    "summary": "Amélioration global de la solution et développement des API REST."
+	},
+	{
+	    "company": "TLD",
+	    "position": "Développeur logiciel junior",
+		"area": "Sherbrooke, Québec",
+		"skills": "PHP, HTML, CSS, JavaScript, C#, SQL, Git, Linux",
+	    "startDate": "Février 2016",
+	    "endDate": "Avril 2018",
+	    "summary": "Développeur principal de plusieurs modules de l'intranet TLD (~800k LDC) et seul développeur C# de l'application de vente. Participation active dans une équipe internationale d'environ 20 personnes."
+	},
+	{
 	    "company": "FINELOG",
-	    "position": "Ingénieur d'étude et de développement",
+	    "position": "Consultant d'application junior",
 		"area": "Paris, France",
 		"skills": "C#, SQL Server, .NET 4.5, LINQ to Entities",
 	    "startDate": "Mai 2015",
@@ -53,23 +64,23 @@
 	    "company": "Epitech Innovation Hub",
 	    "position": "Assistant professeur",
 		"area": "Paris, France",
-		"skills": "C++, Python, MySQL, MongoDB",
+		"skills": "C++, Python, MySQL, MongoDB, Linux",
 	    "startDate": "Septembre 2014",
 	    "endDate": "Février 2015",
 	    "summary": "Guider et conseiller les étudiants souhaitant créer des projets innovants."
 	},
 	{
 	    "company": "CNRS",
-	    "position": "Développeur logiciel (stage)",
+	    "position": "Stagiaire Développeur logiciel",
 		"area": "Paris, France",
 		"skills": "Java, Scala, JDK 1.7",
 	    "startDate": "Mai 2013",
 	    "endDate": "Septembre 2013",
-	    "summary": "Mettre en place un environnement capable de fusionner un projet avec toutes ses dépendances ou d'en éclater un déjà existant."
+	    "summary": "Mettre en place un environnement capable de fusionner un projet avec toutes ses dépendances ou d'en déployer un déjà existant."
 	},
 	{
 	    "company": "GSM Europe - Billabong",
-	    "position": "Support technique et développeur d'outils (stage)",
+	    "position": "Stagiaire Support technique & Développeur d'outils",
 		"area": "Capbreton, France",
 		"skills": "C#, Visual Studio 2010, .NET 2",
 	    "startDate": "Juil. 2011",
@@ -97,18 +108,17 @@
 		"C++",
 		"C",
 		"Python",
-		"Scala",
-		"Java",
 		"JavaScript",
-		"HTML/CSS",
+		"HTML",
+		"CSS",
 		"PHP"
 	    ]
 	},
 	{
 	    "name": "Gestionnaires de versions",
 	    "keywords": [
-		"SVN",
 		"Git",
+		"SVN",
 		"TFS"
 	    ]
 	},
