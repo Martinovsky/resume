@@ -1,12 +1,12 @@
 {
     "basics": {
 	"name": "Martin Degenne",
-	"label": "Software Engineer",
+	"label": "Game programmer",
 	"picture": "",
-	"address": "6 rue de Vanves",
-	"city": "92130 Issy-les-moulineaux, FRANCE",
+	"address": "213-55 rue Molière",
+	"city": "Montréal, Québec, H2R 1N7",
 	"email": "martin.degenne@gmail.com",
-	"phone": "+33 643 627 845",
+	"phone": "+1 438-527-8745",
 	"summary": ""
     },
     "education": [
@@ -34,12 +34,21 @@
     ],
     "work": [
 	{
+	    "company": "Behaviour Interactive",
+	    "position": "Game programmer",
+		"area": "Montréal, Québec",
+		"skills": "Python, C#, C++, Perforce, SQL",
+	    "startDate": "March 2020",
+	    "endDate": "Current Position",
+	    "summary": "Creation and maintenance of internal tools related to the game Dead By Daylight."
+	},
+	{
 	    "company": "Sunlight Solutions",
 	    "position": "Software Engineer",
 		"area": "Paris, France",
 		"skills": "C#, CSS, JavaScript, SQL, Git",
 	    "startDate": "November 2018",
-	    "endDate": "Current Position",
+	    "endDate": "December 2019",
 	    "summary": "General improvement of the solution and REST API developer."
 	}
 	,{
@@ -92,10 +101,10 @@
 	{
 	    "name": "Programming Languages",
 	    "keywords": [
+		"Python",
 		"C#",
 		"C++",
 		"C",
-		"Python",
 		"JavaScript",
 		"HTML",
 		"CSS",
@@ -106,8 +115,7 @@
 	    "name": "Versioning",
 	    "keywords": [
 		"Git",
-		"SVN",
-		"TFS"
+		"Perforce"
 	    ]
 	},
 	{
